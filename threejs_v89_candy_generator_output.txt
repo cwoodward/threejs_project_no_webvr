@@ -1,0 +1,395 @@
+2018-03-15 16:56:33.033 INFO  GenerateSourcesTool:67 - JSweet candy scaffold tool - version: 2.0.0
+2018-03-15 16:56:33.033 INFO  GenerateSourcesTool:102 - scaffolding candy: 
+* candyName: threejs
+* tsFiles: [./DefinitelyTyped/types/three/index.d.ts, ./DefinitelyTyped/types/three/three-core.d.ts, ./DefinitelyTyped/types/three/three-colladaLoader.d.ts, ./DefinitelyTyped/types/three/three-copyshader.d.ts, ./DefinitelyTyped/types/three/three-css3drenderer.d.ts, ./DefinitelyTyped/types/three/three-ctmloader.d.ts, ./DefinitelyTyped/types/three/three-ddsloader.d.ts, ./DefinitelyTyped/types/three/three-editorcontrols.d.ts, ./DefinitelyTyped/types/three/three-effectcomposer.d.ts, ./DefinitelyTyped/types/three/three-examples.d.ts, ./DefinitelyTyped/types/three/three-fbxloader.d.ts, ./DefinitelyTyped/types/three/three-FirstPersonControls.d.ts, ./DefinitelyTyped/types/three/three-maskpass.d.ts, ./DefinitelyTyped/types/three/three-mtlloader.d.ts, ./DefinitelyTyped/types/three/three-objloader.d.ts, ./DefinitelyTyped/types/three/three-octree.d.ts, ./DefinitelyTyped/types/three/three-orbitcontrols.d.ts, ./DefinitelyTyped/types/three/three-orthographictrackballcontrols.d.ts, ./DefinitelyTyped/types/three/three-outlinepass.d.ts, ./DefinitelyTyped/types/three/three-projector.d.ts, ./DefinitelyTyped/types/three/three-renderpass.d.ts, ./DefinitelyTyped/types/three/three-shaderpass.d.ts, ./DefinitelyTyped/types/three/three-smaapass.d.ts, ./DefinitelyTyped/types/three/three-filmpass.d.ts, ./DefinitelyTyped/types/three/three-trackballcontrols.d.ts, ./DefinitelyTyped/types/three/three-transformcontrols.d.ts, ./DefinitelyTyped/types/three/three-vrcontrols.d.ts, ./DefinitelyTyped/types/three/three-vreffect.d.ts, ./DefinitelyTyped/types/three/detector.d.ts]
+* tsDependencies: [typings/lib.core/lib.core.d.ts, typings/lib.core/lib.core.ext.d.ts, typings/lib.core/lib.dom.d.ts]
+* coreVersion: ES5
+ to out: /home/cwoodward/threejs_project/candies/threejs/src/main/java
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:272 - input files: [./DefinitelyTyped/types/three/index.d.ts, ./DefinitelyTyped/types/three/three-core.d.ts, ./DefinitelyTyped/types/three/three-colladaLoader.d.ts, ./DefinitelyTyped/types/three/three-copyshader.d.ts, ./DefinitelyTyped/types/three/three-css3drenderer.d.ts, ./DefinitelyTyped/types/three/three-ctmloader.d.ts, ./DefinitelyTyped/types/three/three-ddsloader.d.ts, ./DefinitelyTyped/types/three/three-editorcontrols.d.ts, ./DefinitelyTyped/types/three/three-effectcomposer.d.ts, ./DefinitelyTyped/types/three/three-examples.d.ts, ./DefinitelyTyped/types/three/three-fbxloader.d.ts, ./DefinitelyTyped/types/three/three-FirstPersonControls.d.ts, ./DefinitelyTyped/types/three/three-maskpass.d.ts, ./DefinitelyTyped/types/three/three-mtlloader.d.ts, ./DefinitelyTyped/types/three/three-objloader.d.ts, ./DefinitelyTyped/types/three/three-octree.d.ts, ./DefinitelyTyped/types/three/three-orbitcontrols.d.ts, ./DefinitelyTyped/types/three/three-orthographictrackballcontrols.d.ts, ./DefinitelyTyped/types/three/three-outlinepass.d.ts, ./DefinitelyTyped/types/three/three-projector.d.ts, ./DefinitelyTyped/types/three/three-renderpass.d.ts, ./DefinitelyTyped/types/three/three-shaderpass.d.ts, ./DefinitelyTyped/types/three/three-smaapass.d.ts, ./DefinitelyTyped/types/three/three-filmpass.d.ts, ./DefinitelyTyped/types/three/three-trackballcontrols.d.ts, ./DefinitelyTyped/types/three/three-transformcontrols.d.ts, ./DefinitelyTyped/types/three/three-vrcontrols.d.ts, ./DefinitelyTyped/types/three/three-vreffect.d.ts, ./DefinitelyTyped/types/three/detector.d.ts]
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:273 - dependencies: [typings/lib.core/lib.core.d.ts, typings/lib.core/lib.core.ext.d.ts, typings/lib.core/lib.dom.d.ts]
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:274 - output directory: /home/cwoodward/threejs_project/candies/threejs/src/main/java
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:282 - all definitions: [typings/lib.core/lib.core.d.ts, typings/lib.core/lib.core.ext.d.ts, typings/lib.core/lib.dom.d.ts, ./DefinitelyTyped/types/three/index.d.ts, ./DefinitelyTyped/types/three/three-core.d.ts, ./DefinitelyTyped/types/three/three-colladaLoader.d.ts, ./DefinitelyTyped/types/three/three-copyshader.d.ts, ./DefinitelyTyped/types/three/three-css3drenderer.d.ts, ./DefinitelyTyped/types/three/three-ctmloader.d.ts, ./DefinitelyTyped/types/three/three-ddsloader.d.ts, ./DefinitelyTyped/types/three/three-editorcontrols.d.ts, ./DefinitelyTyped/types/three/three-effectcomposer.d.ts, ./DefinitelyTyped/types/three/three-examples.d.ts, ./DefinitelyTyped/types/three/three-fbxloader.d.ts, ./DefinitelyTyped/types/three/three-FirstPersonControls.d.ts, ./DefinitelyTyped/types/three/three-maskpass.d.ts, ./DefinitelyTyped/types/three/three-mtlloader.d.ts, ./DefinitelyTyped/types/three/three-objloader.d.ts, ./DefinitelyTyped/types/three/three-octree.d.ts, ./DefinitelyTyped/types/three/three-orbitcontrols.d.ts, ./DefinitelyTyped/types/three/three-orthographictrackballcontrols.d.ts, ./DefinitelyTyped/types/three/three-outlinepass.d.ts, ./DefinitelyTyped/types/three/three-projector.d.ts, ./DefinitelyTyped/types/three/three-renderpass.d.ts, ./DefinitelyTyped/types/three/three-shaderpass.d.ts, ./DefinitelyTyped/types/three/three-smaapass.d.ts, ./DefinitelyTyped/types/three/three-filmpass.d.ts, ./DefinitelyTyped/types/three/three-trackballcontrols.d.ts, ./DefinitelyTyped/types/three/three-transformcontrols.d.ts, ./DefinitelyTyped/types/three/three-vrcontrols.d.ts, ./DefinitelyTyped/types/three/three-vreffect.d.ts, ./DefinitelyTyped/types/three/detector.d.ts]
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: typings/lib.core/lib.core.d.ts
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: typings/lib.core/lib.core.ext.d.ts
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: typings/lib.core/lib.dom.d.ts
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:208 - handling dependency: typings/lib.core/lib.core.d.ts
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/index.d.ts
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:6(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:8(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:9(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:10(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:11(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:12(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:13(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:14(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:15(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:16(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:17(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:18(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:19(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:20(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:21(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:22(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:23(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:24(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:25(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:26(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:27(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:28(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:29(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:30(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:31(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:32(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:33(8)
+SYNTAX ERROR: '*' is not expected at '*' ./DefinitelyTyped/types/three/index.d.ts:34(8)
+SYNTAX ERROR: 'as' is not expected at 'as' ./DefinitelyTyped/types/three/index.d.ts:36(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-core.d.ts
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-colladaLoader.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-colladaLoader.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-copyshader.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-copyshader.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-css3drenderer.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-css3drenderer.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-ctmloader.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-ctmloader.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-ddsloader.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-ddsloader.d.ts:3(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-editorcontrols.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-editorcontrols.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-effectcomposer.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-effectcomposer.d.ts:1(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-effectcomposer.d.ts:2(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-examples.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-examples.d.ts:3(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-fbxloader.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-fbxloader.d.ts:3(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-fbxloader.d.ts:4(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-FirstPersonControls.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-FirstPersonControls.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-maskpass.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-maskpass.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-mtlloader.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-mtlloader.d.ts:4(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-mtlloader.d.ts:5(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-mtlloader.d.ts:6(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-mtlloader.d.ts:7(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-mtlloader.d.ts:8(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-objloader.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-objloader.d.ts:3(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-objloader.d.ts:4(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-objloader.d.ts:5(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-objloader.d.ts:6(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-octree.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-octree.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-orbitcontrols.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-orbitcontrols.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-orthographictrackballcontrols.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-orthographictrackballcontrols.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-outlinepass.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-outlinepass.d.ts:2(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-outlinepass.d.ts:3(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-outlinepass.d.ts:4(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-outlinepass.d.ts:5(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-outlinepass.d.ts:6(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-projector.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-projector.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-renderpass.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-renderpass.d.ts:9(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-shaderpass.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-shaderpass.d.ts:10(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-shaderpass.d.ts:11(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-shaderpass.d.ts:12(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-shaderpass.d.ts:13(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-shaderpass.d.ts:14(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-shaderpass.d.ts:15(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-shaderpass.d.ts:16(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-smaapass.d.ts
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-filmpass.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-filmpass.d.ts:1(8)
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-filmpass.d.ts:2(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-trackballcontrols.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-trackballcontrols.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-transformcontrols.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-transformcontrols.d.ts:1(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-vrcontrols.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-vrcontrols.d.ts:3(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/three-vreffect.d.ts
+SYNTAX ERROR: '{' is not expected at '{' ./DefinitelyTyped/types/three/three-vreffect.d.ts:3(8)
+2018-03-15 16:56:33.033 INFO  TypescriptDef2Java:181 - parsing: ./DefinitelyTyped/types/three/detector.d.ts
+SYNTAX ERROR: 'as' is not expected at 'as' ./DefinitelyTyped/types/three/detector.d.ts:8(8)
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.js
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/index.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-core.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-colladaLoader.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-copyshader.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-css3drenderer.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-ctmloader.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-ddsloader.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-editorcontrols.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-effectcomposer.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-examples.d.ts ==> def.types.three
+2018-03-15 16:56:33.033 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:33.033 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-fbxloader.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-FirstPersonControls.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-maskpass.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-mtlloader.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-objloader.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-octree.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-orbitcontrols.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-orthographictrackballcontrols.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-outlinepass.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-projector.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-renderpass.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-shaderpass.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-smaapass.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-filmpass.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-trackballcontrols.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-transformcontrols.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-vrcontrols.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/three-vreffect.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 DEBUG Util:665 - ./DefinitelyTyped/types/three/detector.d.ts ==> def.types.three
+2018-03-15 16:56:34.034 WARN  Context:129 - root package has already been registered: def.types.three
+2018-03-15 16:56:34.034 INFO  Context:209 - context consistency check
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:380 - dumping initial state
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:224 - 44 modules and 1009 types found.
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:226 - modules: 
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.js
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.js
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.dom
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.dom.Intl
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.AnimationUtils
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.PropertyBinding
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.GeometryUtils
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.Cache
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.ColorKeywords
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.Math
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.UniformsUtils
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.ImageUtils
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.SceneUtils
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.ShapeUtils
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three.CurveUtils
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:34.034 INFO  TypescriptDef2Java:385 - dependency graph: [def.js->[],def.types.three->[def.js, def.dom],def.dom->[def.js]]
+2018-03-15 16:56:34.034 WARN  ModuleToTypeMerger:75 - cannot merge declaration 'Composite' ./DefinitelyTyped/types/three/three-core.d.ts:380(18)
+2018-03-15 16:56:36.036 DEBUG ObjectTypeDuplicateMerger:60 - ./DefinitelyTyped/types/three/three-core.d.ts object types replacements: {def.types.three.DirectGeometry.EventData=EventData, def.types.three.Geometry.EventData=EventData}
+2018-03-15 16:56:36.036 DEBUG TypeMerger:154 - merging types: def.js.Error@typings/lib.core/lib.core.ext.d.ts:7(11) ==> def.js.Error@typings/lib.core/lib.core.d.ts:878(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:154 - merging types: def.js.Object@typings/lib.core/lib.core.ext.d.ts:19(11) ==> def.js.Object@typings/lib.core/lib.core.d.ts:94(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:154 - merging types: def.js.Array@typings/lib.core/lib.core.ext.d.ts:47(11) ==> def.js.Array@typings/lib.core/lib.core.d.ts:1109(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.dom.String@typings/lib.core/lib.dom.d.ts:141(11) ==> def.js.String@typings/lib.core/lib.core.d.ts:277(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.dom.Number@typings/lib.core/lib.dom.d.ts:159(11) ==> def.js.Number@typings/lib.core/lib.core.d.ts:458(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.dom.Date@typings/lib.core/lib.dom.d.ts:175(11) ==> def.js.Date@typings/lib.core/lib.core.d.ts:636(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.types.three.Event@./DefinitelyTyped/types/three/three-core.d.ts:1103(18) ==> def.dom.Event@typings/lib.core/lib.dom.d.ts:3264(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.types.three.WebGLProgram@./DefinitelyTyped/types/three/three-core.d.ts:5963(14) ==> def.dom.WebGLProgram@typings/lib.core/lib.dom.d.ts:11147(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.types.three.WebGLShader@./DefinitelyTyped/types/three/three-core.d.ts:6030(14) ==> def.dom.WebGLShader@typings/lib.core/lib.dom.d.ts:11912(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.types.three.Audio@./DefinitelyTyped/types/three/three-core.d.ts:6407(14) ==> def.dom.Audio@<unknown location>
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.types.three.AudioBuffer@./DefinitelyTyped/types/three/three-core.d.ts:6464(14) ==> def.dom.AudioBuffer@typings/lib.core/lib.dom.d.ts:505(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:114 - add @Mixin annotation for cross-lib type: def.types.three.AudioListener@./DefinitelyTyped/types/three/three-core.d.ts:6490(14) ==> def.dom.AudioListener@typings/lib.core/lib.dom.d.ts:576(11)
+2018-03-15 16:56:36.036 DEBUG TypeMerger:173 - 3 type(s) merged.
+2018-03-15 16:56:36.036 DEBUG SuperTypesMerger:139 - 201 supertype(s) injected.
+2018-03-15 16:56:36.036 INFO  TypescriptDef2Java:402 - TypeReferenceExpander
+2018-03-15 16:56:38.038 DEBUG TypeReferenceExpander:82 - 4755 type reference(s) rewritten/expanded.
+2018-03-15 16:56:38.038 DEBUG TypeMacroReplacer:54 - replacing type macro def.js.ClassDecorator with type target:TFunction=>TFunction
+2018-03-15 16:56:38.038 DEBUG TypeMacroReplacer:54 - replacing type macro def.js.PropertyDecorator with type target:Object,propertyKey:String | symbol=>void
+2018-03-15 16:56:38.038 DEBUG TypeMacroReplacer:54 - replacing type macro def.js.MethodDecorator with type target:Object,propertyKey:String | symbol,descriptor:TypedPropertyDescriptor<T>=>TypedPropertyDescriptor<T>
+2018-03-15 16:56:38.038 DEBUG TypeMacroReplacer:54 - replacing type macro def.js.ParameterDecorator with type target:Object,propertyKey:String | symbol,parameterIndex:number=>void
+2018-03-15 16:56:38.038 DEBUG TypeMacroReplacer:54 - replacing type macro def.js.PromiseConstructorLike with type executor:resolve:value:T | PromiseLike<T>=>void,reject:reason:any=>void=>void=>PromiseLike<T>
+2018-03-15 16:56:38.038 DEBUG TypeMacroReplacer:54 - replacing type macro def.dom.EventListenerOrEventListenerObject with type EventListener | EventListenerObject
+2018-03-15 16:56:38.038 DEBUG TypeMacroReplacer:147 - 6 type macros redirected.
+2018-03-15 16:56:38.038 INFO  TypeMacroReplacer:148 - ===> []
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:71 - ignore StringType creation for dependency: def.js
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:71 - ignore StringType creation for dependency: def.js
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:71 - ignore StringType creation for dependency: def.dom
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: AnimationUtils
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: PropertyBinding
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: GeometryUtils
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: Cache
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: ColorKeywords
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: Math
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: UniformsUtils
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: ImageUtils
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: SceneUtils
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: ShapeUtils
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: CurveUtils
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 INFO  StringTypeCreator:75 - enter StringType creation for: def.types.three
+2018-03-15 16:56:38.038 DEBUG DynamicTypeParametersExpander:88 - 80 parameter(s) expanded.
+2018-03-15 16:56:39.039 DEBUG FactoryMethodsCreator:72 - 22 factory method(s) created.
+2018-03-15 16:56:41.041 DEBUG TypeReferenceExpander:82 - 5655 type reference(s) rewritten/expanded.
+2018-03-15 16:56:41.041 DEBUG DuplicateMethodsCleaner:134 - incompatible return types: getPoint:Vector3(t:number) - Vector3 / getPoint:T(t:number)
+2018-03-15 16:56:41.041 DEBUG DuplicateMethodsCleaner:134 - incompatible return types: getPoint:Vector3(t:number) - Vector3 / getPoint:T(t:number)
+2018-03-15 16:56:41.041 DEBUG DuplicateMethodsCleaner:134 - incompatible return types: getPoint:Vector3(t:number) - Vector3 / getPoint:T(t:number)
+2018-03-15 16:56:41.041 DEBUG DuplicateMethodsCleaner:134 - incompatible return types: getPoint:Vector3(t:number) - Vector3 / getPoint:T(t:number)
+2018-03-15 16:56:41.041 DEBUG DuplicateMethodsCleaner:206 - 5 method(s) hidden.
+2018-03-15 16:56:41.041 INFO  Context:209 - context consistency check
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:463 - dumping final state
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:224 - 51 modules and 1586 types found.
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:226 - modules: 
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.js
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * jsweet.util
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * jsweet.util.function
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.js
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.dom
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.dom.intl
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * jsweet.util.union
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.animationutils
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.propertybinding
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.geometryutils
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.cache
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.colorkeywords
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.math
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.uniformsutils
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.imageutils
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.sceneutils
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.shapeutils
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three.curveutils
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * jsweet.util
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * jsweet.util.function
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * jsweet.util.union
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * jsweet.util.union
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:228 -    * def.types.three
+2018-03-15 16:56:41.041 INFO  TypescriptDef2Java:355 - translated typings/lib.core/lib.core.d.ts
+2018-03-15 16:56:42.042 INFO  TypescriptDef2Java:355 - translated typings/lib.core/lib.core.ext.d.ts
+2018-03-15 16:56:42.042 INFO  TypescriptDef2Java:355 - translated typings/lib.core/lib.dom.d.ts
+2018-03-15 16:56:42.042 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/index.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-core.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-colladaLoader.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-copyshader.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-css3drenderer.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-ctmloader.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-ddsloader.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-editorcontrols.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-effectcomposer.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-examples.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-fbxloader.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-FirstPersonControls.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-maskpass.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-mtlloader.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-objloader.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-octree.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-orbitcontrols.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-orthographictrackballcontrols.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-outlinepass.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-projector.d.ts
+2018-03-15 16:56:43.043 WARN  JavaDefModelPrinter:343 - candies/threejs/src/main/java/jsweet/util/union/Union3.java already exists!!
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-renderpass.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-shaderpass.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-smaapass.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-filmpass.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-trackballcontrols.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-transformcontrols.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-vrcontrols.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/three-vreffect.d.ts
+2018-03-15 16:56:43.043 INFO  TypescriptDef2Java:355 - translated ./DefinitelyTyped/types/three/detector.d.ts
+2018-03-15 16:56:43.043 INFO  GenerateSourcesTool:117 - **************************************************************
+2018-03-15 16:56:43.043 INFO  GenerateSourcesTool:118 - candy threejs successfully generated to candies/threejs/src/main/java
+2018-03-15 16:56:43.043 INFO  GenerateSourcesTool:119 - **************************************************************
+

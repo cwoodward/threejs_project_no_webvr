@@ -1,0 +1,211 @@
+changes made to original DefinitelyTyped typescript definition files
+
+
+./DefinitelyTyped/types/three/three-shaderpass.d.ts 
+
+the mult-line import statement:
+//import {
+//    Camera,
+//    Mesh,
+//    Scene,
+//    Shader,
+//    ShaderMaterial,
+//    WebGLRenderTarget,
+//    WebGLRenderer
+//} from "./three-core";
+
+was causing a null point exception to be thrown so I changed it to individual imports:
+
+
+import {Camera} from "./three-core";
+import {Mesh} from "./three-core";
+import {Scene} from "./three-core";
+import {Shader} from "./three-core";
+import {ShaderMaterial} from "./three-core";
+import {WebGLRenderTarget} from "./three-core";
+import {WebGLRenderer} from "./three-core";
+
+---
+
+./DefinitelyTyped/types/three/colladaloader.d.ts 
+
+the mult-line import statement:
+
+//import {
+//Scene
+// } from "./three-core";
+
+was causing a null point exception to be thrown so I changed it to a single line import:
+
+import {Scene } from "./three-core";
+
+---
+
+./DefinitelyTyped/types/three-outlinepass.d.ts 
+
+this multiple element import statment:
+
+import { Camera, Color, Object3D, Scene, Vector2 } from './three-core';
+
+was causing a null pointer exception to be thrown so I split it into separate import statments:
+
+import { Camera } from './three-core';
+import { Color } from './three-core';
+import { Object3D } from './three-core';
+import { Scene } from './three-core';
+import { Vector2 } from './three-core';
+
+---
+
+./DefinitelyTyped/types/three/projector.d.ts 
+
+the mult-line import statement:
+
+//import { Camera,
+//Color,
+//Face3, 
+//Light, 
+//Material, 
+//Object3D,
+//Scene,
+//Vector2,
+//Vector3,
+//Vector4} from "./three-core";
+
+was causing a null point exception to be thrown so I converted it into a single line import statement:
+
+import {Camera,Color,Face3, Light, Material, Object3D,Scene,Vector2,Vector3,Vector4} from "./three-core";
+
+---
+
+./DefinitelyTyped/types/three/renderpass.d.ts 
+
+the mult-line import statement:
+
+//import {
+//    Camera,
+//    Color,
+//    Material,
+//    Scene,
+//    WebGLRenderTarget,
+//    WebGLRenderer
+//} from "./three-core";
+
+was causing a null point exception to be thrown so I converted it into a single line import statement:
+
+import {    Camera,    Color,    Material,    Scene,    WebGLRenderTarget,    WebGLRenderer } from "./three-core";
+
+---
+
+./DefinitelyTyped/types/three/three-core.d.ts 
+
+this class had an invalid type assigned to isArrayCamera :true. I changed it to a boolean.
+
+export class ArrayCamera extends PerspectiveCamera {
+    constructor(cameras?: PerspectiveCamera[]);
+
+    cameras: PerspectiveCamera[];
+    //isArrayCamera: true; // true is not a valid type // cannot find reference true (def.types.three.ArrayCamera.true) at ./DefinitelyTyped/types/three/three-core.d.ts:661(5)
+    isArrayCamera: boolean;
+}
+
+
+this interface get was trying to return a null reference so I changed it to simple the AnyLoader type:
+
+export interface LoaderHandler {
+    handlers: (RegExp | AnyLoader)[];
+
+    add(regex: RegExp, loader: AnyLoader): void;
+    //get(file: string): AnyLoader | null; //ERROR Context:121 - cannot find reference null (def.types.three.LoaderHandler.null) at ./DefinitelyTyped/types/three/three-core.d.ts:2147(34)
+
+    get(file: string): AnyLoader ;
+}
+
+
+this class had an invalid type assigned to isMultiMaterial :true. I changed it to a boolean.
+
+// MultiMaterial does not inherit the Material class in the original code. However, it should treat as Material class.
+// See tests/canvas/canvas_materials.ts.
+/**
+ * @deprecated Use an Array instead.
+ */
+export class MultiMaterial extends Material {
+    constructor(materials?: Material[]);
+
+    //isMultiMaterial: true; // cannot find reference true (def.types.three.MultiMaterial.true) at ./DefinitelyTyped/types/three/three-core.d.ts:2968(5)
+      isMultiMaterial: boolean;
+
+
+    materials: Material[];
+
+    toJSON(meta: any): any;
+
+}
+
+---
+NOTE- for the sake of simplification the references to WEB VR related errors missing VRDisplay definition from webvr-api were simply commented out.
+---
+
+export interface WebVRManager {
+    enabled: boolean;
+    //getDevice(): VRDisplay | null;//ERROR Context:121 - cannot find reference VRDisplay (def.types.three.WebVRManager.VRDisplay) at ./DefinitelyTyped/types/three/three-core.d.ts:7398(28)//ERROR Context:121 - cannot find reference null (def.types.three.WebVRManager.null) at ./DefinitelyTyped/types/three/three-core.d.ts:7398(28)
+
+    //setDevice(device: VRDisplay | null): void;//ERROR Context:121 - cannot find reference null (def.types.three.WebVRManager.null) at ./DefinitelyTyped/types/three/three-core.d.ts:7399(15)//
+    //setPoseTarget(object: Object3D | null): void;//ERROR Context:121 - cannot find reference null (def.types.three.WebVRManager.null) at ./DefinitelyTyped/types/three/three-core.d.ts:7400(19)
+    setPoseTarget(object: Object3D ): void;
+    getCamera(camera: PerspectiveCamera): PerspectiveCamera | ArrayCamera;
+    submitFrame(): void;
+    dispose(): void;
+}
+
+-----------
+
+./DefinitelyTyped/types/three/three-vrcontrols.d.ts 
+/// <reference types="webvr-api" />
+
+import { Camera } from "./three-core";
+
+export class VRControls {
+    constructor(camera: Camera, callback?: (param: string) => void);
+
+    /**
+     * Update VR Instance Tracking
+     */
+    update(): void;
+
+    zeroSensor(): void;
+
+    scale: number;
+
+    //setVRDisplay(display: VRDisplay): void; //ERROR Context:121 - cannot find reference VRDisplay (def.types.three.VRControls.VRDisplay) at ./DefinitelyTyped/types/three/three-vrcontrols.d.ts:17(18)
+
+}
+
+
+-----------
+
+./DefinitelyTyped/types/three/three-vreffect.d.ts 
+/// <reference types="webvr-api" />
+
+import { Camera, Matrix4, Renderer, Scene } from "./three-core";
+
+export class VREffect {
+    constructor(renderer: Renderer, callback?: (params: string) => void);
+
+    render(scene: Scene, camera: Camera): void;
+
+    setSize(width: number, height: number): void;
+
+    setFullScreen(flag: boolean): void;
+
+    startFullscreen(): void;
+
+    FovToNDCScaleOffset(fov: VRFov): VREffectOffset;
+
+    FovPortToProjection(fov: VRFov, rightHanded: boolean, zNear: number, zFar: number): Matrix4;
+
+    FovToProjection(fov: VRFov, rightHanded: boolean, zNear: number, zFar: number): Matrix4;
+
+    //setVRDisplay(display: VRDisplay): void;//  ERROR Context:121 - cannot find reference VRDisplay (def.types.three.VREffect.VRDisplay) at ./DefinitelyTyped/types/three/three-vreffect.d.ts:22(18)
+}
+

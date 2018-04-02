@@ -1,0 +1,26 @@
+-classpath
+'/home/cwoodward/.m2/repository/org/jsweet/jsweet-core/5-SNAPSHOT/jsweet-core-5-SNAPSHOT.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/cwoodward/jsweet/threejs_project_no_webvr/candies/candy-threejs/src/main/java'
+-author
+-bottom
+'<center>Copyright 2015, <a href="http://www.cincheo.org" target="_blank">Cinchéo SAS<a> - Web site: <a href="http://www.jsweet.org" target="_blank">http://www.jsweet.org<a><center>'
+-charset
+'UTF-8'
+-d
+'/home/cwoodward/jsweet/threejs_project_no_webvr/candies/candy-threejs/threejs/89-20180401'
+-docencoding
+'UTF-8'
+-doctitle
+'threejs 89-20180401 API'
+-header
+'<a href="http://www.jsweet.org" target="_blank" style="text-transform: lowercase">http://www.jsweet.org<a>'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' '/home/cwoodward/jsweet/threejs_project_no_webvr/candies/candy-threejs/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'threejs 89-20180401 API'
